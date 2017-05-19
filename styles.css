@@ -1,0 +1,64 @@
+body{
+	background-color: #efefef;
+	font-family: 'Libre Baskerville', serif;
+	padding-top: 20px;
+	margin-bottom: 60px;
+}
+h1{
+	font-weight: 400;
+}
+h2{
+	font-size: 18px;
+}
+h3{
+	font-size: 12px;
+	font-style: oblique;
+	font-family: 'Open Sans', sans-serif;
+}
+.introText{
+	padding-bottom: 20px;
+}
+
+/* Card Styling */
+.assignmentCard{
+	width: 300px;
+}
+.card-title{
+	font-size: 20px;
+	text-align: center;
+}
+
+li{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.card-subtitle{
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.card-block { /* messing with material design shadows */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-block:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /*background-color: #bdc3c7;*/
+  padding-top: 10px;
+  text-align: right;
+  border-top: 1px solid #e0e2e5;
+}
+.footerContainer{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
